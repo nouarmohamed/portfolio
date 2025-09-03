@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = ({ title, description, tech, image, href }) => {
   return (
-    <div className="border border-[#13162D] rounded-2xl shadow-md p-7 w-130 cursor-pointer">
+    <div className="border border-[#2c3646] rounded-2xl shadow-md p-7 w-130 cursor-pointer">
       <img src={image} alt={title} className="w-full object-cover rounded-2xl" />
       <div className="p-4">
         <h2 className="text-3xl font-bold mb-2">{title}</h2>
