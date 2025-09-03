@@ -9,14 +9,12 @@ import Testimonials from "./components/Testimonials"
 const App = () => {
   return(
     <main className='bg-background'>
-      <div className="">
-        <NavBar />
-        <Hero />
-        <About />
-        <Projects />
-        <Testimonials />
-        <Contact />
-      </div>
+      <NavBar />
+      <Hero />
+      <About />
+      <Projects />
+      <Testimonials />
+      <Contact />
     </main>
   )
 }

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex flex-col-reverse lg:flex-row justify-between items-center w-full min-h-screen bg-[url(/herobg.png)] bg-cover bg-center px-6 md:px-10 lg:px-20 pt-28 md:pt-32 lg:pt-40 pb-10 md:pb-16 lg:pb-20"
+      className="flex flex-col lg:flex-row justify-between items-center w-full min-h-screen bg-[url(/herobg.png)] bg-cover bg-center px-5 md:px-10 lg:px-20 pt-28 md:pt-32 lg:pt-40 pb-10 md:pb-16 lg:pb-20"
     >
       {/* Left side content */}
       <div className="flex flex-col gap-5 max-w-xl pt-6 text-center lg:text-left">
@@ -16,7 +16,7 @@ const Hero = () => {
           <span className="text-violet-500">digital products</span>
         </h1>
         <p className="text-sm md:text-base lg:text-lg text-gray-300">
-          Hi, I’m Mohamed Nouar — a developer passionate about building apps that blend clean code with elegant design.
+          Hi, I’m Mohamed — a developer passionate about building apps that blend clean code with elegant design.
         </p>
 
         {/* Social links */}
@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       {/* Right side image */}
-      <div className="flex justify-center lg:justify-end mb-10 lg:mb-0">
+      <div className="flex justify-center lg:justify-end mt-10 lg:mb-0">
         <img
           src="/stack-ulistation.png"
           alt=""
