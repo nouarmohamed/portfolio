@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { techStack } from '../lib/constants'
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
     try {
       await navigator.clipboard.writeText(email);
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // يرجع الأيقونة الأصلية بعد ثانيتين
+      setTimeout(() => setCopied(false), 2000);
     } catch (err) {
       console.error("Failed to copy: ", err);
     }
@@ -17,7 +17,6 @@ const About = () => {
   return (
     <section id='about' className='p-5 sm:p-20 grid grid-cols-6 gap-10 auto-rows-[220px]'>
       
-      {/* بطاقة About Me */}
       <div className="col-span-6 sm:col-span-4 row-span-1 sm:row-span-2 bento-card-wrapper">
         <img src="/labtop.png" alt="Labtop" className='bento-card-img'/>
         <div className='absolute max-w-[40%] right-2 top-2 sm:top-10'>
@@ -28,7 +27,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* بطاقة Skills */}
       <div className="col-span-6 sm:col-span-2 pt-8 pl-8 overflow-hidden bento-card-wrapper">
         <p className='text-sm'>I constantly try to improve</p>
         <h2 className="text-3xl font-semibold mb-4">My tech stack</h2>
@@ -39,7 +37,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* بطاقة Experience */}
       <div className="col-span-6 sm:col-span-2 bento-card-wrapper">
         <img src="/location.png" alt="" className='bento-card-img'/>
         <div className='absolute max-w-2/3 left-4 bottom-2'>
@@ -47,7 +44,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* بطاقة Copy Email */}
       <div className="col-span-6 sm:col-span-2 bento-card-wrapper">
         <img src="/keyboard.png" alt="" className='bento-card-img'/>
         <div className='absolute z-10 left-4 top-4 sm:top-10 max-w-1/2'>
@@ -56,7 +52,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* بطاقة Location */}
       <div className="col-span-6 sm:col-span-4 row-span-1 sm:row-span-2 bento-card-wrapper">
         <img src="/code1.png" alt="" className='bento-card-img'/>
         <div className='absolute z-10 left-4 top-4 sm:top-10 max-w-1/2'>
@@ -65,7 +60,6 @@ const About = () => {
         </div>
       </div>
       
-      {/* بطاقة Copy Email */}
       <div className="col-span-6 sm:col-span-2 flex items-center justify-center gap-2 bg-[url('/email-bg.png')] bg-cover bento-card-wrapper">
         <button onClick={handleCopy} className="bg-white text-violet-700 p-1 rounded-lg font-semibold hover:bg-gray-100">
           <img

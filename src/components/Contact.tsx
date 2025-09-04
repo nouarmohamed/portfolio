@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <footer
       id="contact"
-      className="mt-20 bg-[#0f111a] border-t border-white/10 px-6 md:px-10 lg:px-20 py-10 sm:py-16 text-center"
+      className="sm:mt-20 bg-dark-100 border-t border-white/10 px-6 md:px-10 lg:px-20 py-10 sm:py-16 text-center"
     >
       <h2 className="text-3xl sm:text-4xl font-bold mb-4">
         Let’s <span className="text-violet-500">Connect</span>
@@ -16,7 +16,7 @@ const Contact = () => {
 
       <a
         href="mailto:javascriptjourney1@gmail.com"
-        className="inline-block bg-violet-600 text-white py-3 px-6 rounded-xl font-semibold hover:bg-violet-700 hover:scale-105 transition-all duration-300"
+        className="bg-violet-600 text-white py-3 px-6 rounded-xl font-semibold hover:bg-violet-700 hover:scale-105 transition-all duration-300"
       >
         javascriptjourney1@gmail.com
       </a>

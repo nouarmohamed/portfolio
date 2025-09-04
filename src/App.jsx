@@ -8,7 +8,7 @@ import Testimonials from "./components/Testimonials"
 
 const App = () => {
   return(
-    <main className='bg-background'>
+    <main className='bg-blue-900'>
       <NavBar />
       <Hero />
       <About />

@@ -6,9 +6,9 @@ export const navLinks = [
 ]
 
 export const socialLinks = [
-    {name: 'Youtube', href: 'https://youtube.com', icon: '/youtube.svg'},
-    {name: 'GitHub', href: 'https://github.com', icon: '/github.svg'},
-    {name: 'LinkedIn', href: 'https://linkedin.com', icon: '/linkedin.svg'},
+    {name: 'Youtube', href: 'https://www.youtube.com/channel/UCnQp58haPD-QAks3UCTyPlw', icon: '/youtube.svg'},
+    {name: 'GitHub', href: 'https://github.com/nouarmohamed', icon: '/github.svg'},
+    {name: 'LinkedIn', href: 'https://www.linkedin.com/in/javascript-journey-4b45ab373/', icon: '/linkedin.svg'},
     {name: 'X', href: 'https://x.com', icon: '/x.svg'},
 ]
 
@@ -18,8 +18,7 @@ export const testimonials = [
         role: "CEO at NovaTech",
         image: "/avatar-1.jpg",
         feedback:
-        "Working with Mohamed Nouar was an absolute pleasure. His clean code and elegant design transformed our idea into a scalable product.",
-        position: 1
+        "Working with Mohamed was an absolute pleasure. His clean code and elegant design transformed our idea into a scalable product.",
     },
     {
         name: "David Kim",
@@ -27,7 +26,6 @@ export const testimonials = [
         image: "/avatar-2.jpg",
         feedback:
         "Mohamed’s attention to detail is unmatched. He blends creativity with technical excellence in a way that inspires confidence.",
-        position: 2
     },
     {
         name: "James Carter",
@@ -35,23 +33,20 @@ export const testimonials = [
         image: "/avatar-3.jpg",
         feedback:
         "Mohamed delivered beyond expectations. His work ethic and elegant solutions made a lasting impact on our project.",
-        position: 3
     },
     {
         name: "Elena Rossi",
         role: "Product Manager at CloudSphere",
         image: "/avatar-4.jpg",
         feedback:
-        "I was amazed by Mohamed Nouar’s ability to turn complex requirements into a beautiful and intuitive application. Highly recommended!",
-        position: 4
+        "I was amazed by Mohamed’s ability to turn complex requirements into a beautiful and intuitive application. Highly recommended!",
     },
     {
         name: "Maya Lee",
         role: "UX Designer at FlowStudio",
         image: "/avatar-5.jpg",
         feedback:
-        "Collaborating with Mohamed Nouar was inspiring. He truly understands how to blend user experience with scalable code.",
-        position: 5
+        "Collaborating with Mohamed was inspiring. He truly understands how to blend user experience with scalable code.",
     },
 ];
 
