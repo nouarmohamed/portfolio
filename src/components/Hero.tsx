@@ -26,6 +26,7 @@ const Hero = () => {
                   src={link.icon}
                   alt={link.name}
                   className="w-8 h-8 md:w-10 md:h-10 hover:scale-110 hover:opacity-80 transition-all duration-200"
+                  loading="lazy"
                 />
               </a>
             </li>
@@ -42,6 +43,7 @@ const Hero = () => {
           src="/stack-ulistation.png"
           alt=""
           className="w-56 md:w-80 lg:w-[32rem] opacity-70 hover:opacity-100 transition-all duration-300 rotate-[-10deg] md:rotate-[-15deg] lg:rotate-[-20deg] hover:rotate-0"
+          loading="lazy"
         />
       </div>
     </section>

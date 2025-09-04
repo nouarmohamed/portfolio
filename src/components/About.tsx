@@ -18,7 +18,7 @@ const About = () => {
     <section id='about' className='p-5 sm:p-20 grid grid-cols-6 gap-10 auto-rows-[220px]'>
       
       <div className="col-span-6 sm:col-span-4 row-span-1 sm:row-span-2 bento-card-wrapper">
-        <img src="/labtop.png" alt="Labtop" className='bento-card-img'/>
+        <img src="/labtop.png" alt="Labtop" className='bento-card-img' loading="lazy"/>
         <div className='absolute max-w-[40%] right-2 top-2 sm:top-10'>
           <h2 className="bento-card-header">About Me</h2>
           <p className="bento-card-description">
@@ -32,20 +32,20 @@ const About = () => {
         <h2 className="text-3xl font-semibold mb-4">My tech stack</h2>
         <div className="grid grid-cols-5 gap-3 overflow-hidden">
           {techStack.map((tech) => (
-            <img key={tech} src={`/tech/${tech}.png`} alt={tech} className="w-13" />
+            <img key={tech} src={`/tech/${tech}.png`} alt={tech} className="w-13" loading="lazy"/>
           ))}
         </div>
       </div>
 
       <div className="col-span-6 sm:col-span-2 bento-card-wrapper">
-        <img src="/location.png" alt="" className='bento-card-img'/>
+        <img src="/location.png" alt="Location" className='bento-card-img' loading="lazy"/>
         <div className='absolute max-w-2/3 left-4 bottom-2'>
           <h2 className='bento-card-header'>I'm very flexible with time zone communications</h2>
         </div>
       </div>
 
       <div className="col-span-6 sm:col-span-2 bento-card-wrapper">
-        <img src="/keyboard.png" alt="" className='bento-card-img'/>
+        <img src="/keyboard.png" alt="Keyboard" className='bento-card-img' loading="lazy"/>
         <div className='absolute z-10 left-4 top-4 sm:top-10 max-w-1/2'>
           <h2 className="bento-card-header">Beyond Code</h2>
           <p className="bento-card-description">When I’m not coding, I enjoy chess, anime, and exploring creative ideas.</p>
@@ -53,7 +53,7 @@ const About = () => {
       </div>
 
       <div className="col-span-6 sm:col-span-4 row-span-1 sm:row-span-2 bento-card-wrapper">
-        <img src="/code1.png" alt="" className='bento-card-img'/>
+        <img src="/code.png" alt="Code" className='bento-card-img' loading="lazy"/>
         <div className='absolute z-10 left-4 top-4 sm:top-10 max-w-1/2'>
           <h2 className="bento-card-header">What I’m Working On</h2>
           <p className="bento-card-description">I’m currently working on Animo Code — an interactive platform that makes coding more engaging and creative.</p>

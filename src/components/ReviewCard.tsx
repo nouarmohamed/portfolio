@@ -5,7 +5,7 @@ const ReviewCard = ({name, role, image, feedback}) => {
         <p className='text-base sm:text-2xl max-w-sm sm:max-w-2xl'>{feedback}</p>
         <div className='flex justify-between items-center mt-5 sm:mt-10'>
             <div className='flex gap-2 items-center'>
-                <img src={image} alt={name} className='rounded-full size-15 sm:size-22'/>
+                <img src={image} alt={name} className='rounded-full size-15 sm:size-22' loading="lazy"/>
                 <div>
                     <h2 className='text-lg sm:text-2xl font-semibold'>{name}</h2>
                     <p className='text-gray-400 font-semibold text-sm sm:text-lg'>{role}</p>
@@ -18,6 +18,7 @@ const ReviewCard = ({name, role, image, feedback}) => {
                         src="/star.png"
                         alt="Star Rating"
                         className="size-4 sm:size-9"
+                        loading="lazy"
                     />
                 ))}
             </div>
